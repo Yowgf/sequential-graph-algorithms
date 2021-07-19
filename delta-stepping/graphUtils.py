@@ -1,6 +1,8 @@
 """
 Graph utilities used in the python implementation of the sequential
 delta-stepping algorithm.
+
+These are used mainly to build and draw a graph for reference.
 """
 from matplotlib import pyplot as plt
 import networkx as nx
