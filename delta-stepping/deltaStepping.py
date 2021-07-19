@@ -7,6 +7,17 @@ Purpose: sequential implementation of the delta-stepping algorithm.
 
 We do not have to implement something efficient, this is just for
 testing purposes.
+
+The algorithm mimics the original idea of delta-stepping, from the
+paper:
+    U. Meyer, P. Sanders,
+    Δ-stepping: a parallelizable shortest path algorithm,
+    Journal of Algorithms,
+    Volume 49, Issue 1,
+    2003,
+    Pages 114-152,
+    ISSN 0196-6774,
+    https://doi.org/10.1016/S0196-6774(03)00076-2
 """
 
 from graphUtils import *
